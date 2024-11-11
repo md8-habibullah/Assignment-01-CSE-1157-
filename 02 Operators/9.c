@@ -9,9 +9,9 @@ int main() {
     int y = a - (b / (3 + c) * 2) - 1;
     int z = a - ((b / 3) + c * 2) - 1;
     
-    printf("x = %d\n", x);
-    printf("y = %d\n", y);
-    printf("z = %d\n", z);
+    printf("X = %d\n", x);
+    printf("Y = %d\n", y);
+    printf("Z = %d\n", z);
     
     return 0;
 }

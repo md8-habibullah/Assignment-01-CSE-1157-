@@ -2,12 +2,29 @@
 
 int main() {
     int a, b, c;
+    int result;
     printf("Enter three numbers: ");
     scanf("%d %d %d", &a, &b, &c);
+    if (a > b) {
+        result = 1;
+    } else {
+        result = 0;
+    }
+    printf("a) %d\n", result);
     
-    printf("a) %d\n", (a > b) ? 1 : 0);
-    printf("b) %d\n", (b < c) ? 1 : 0);
-    printf("c) %d\n", (a == c) ? 1 : 0);
+    if (b < c) {
+        result = 1;
+    } else {
+        result = 0;
+    }
+    printf("b) %d\n", result);
+    
+    if (a == c) {
+        result = 1;
+    } else {
+        result = 0;
+    }
+    printf("c) %d\n", result);
     
     return 0;
 }

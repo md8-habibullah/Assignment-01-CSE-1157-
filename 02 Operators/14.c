@@ -6,9 +6,9 @@ int main() {
     printf("Enter a floating point number: ");
     scanf("%f", &a);
     
-    int b = (int)ceil(a); // Round up
-    int c = (int)floor(a); // Round down
-    float d = fabs(a); // Absolute value
+    int b = (int)ceil(a);
+    int c = (int)floor(a);
+    float d = fabs(a);
     
     printf("A = %d, B = %d, C = %.2f\n", b, c, d);
     

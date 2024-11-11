@@ -6,7 +6,7 @@ int main() {
     scanf("%f %f", &a, &b);
     
     c = (3.31 * a * a + 2.01 * b * b * b) / (7.16 * b * b + 2.01 * a * a * a);
-    printf("Result = %.6f\n", c);
+    printf("X = %.6f\n", c);
     
     return 0;
 }
