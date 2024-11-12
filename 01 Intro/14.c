@@ -3,10 +3,10 @@
 int a = 10;
 
 void b() {
-    int c = 20;
+    int a = 20;
 
     printf("A. Global: %d\n", a);
-    printf("B. Local: %d\n", c);
+    printf("B. Local: %d\n", a);
     printf("C. Global: %d\n", a);
 }
 
